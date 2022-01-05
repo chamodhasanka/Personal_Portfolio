@@ -95,7 +95,7 @@ html{
 
 .home{
     display: flex;
-    background: url("https://wallpaperaccess.com/full/2292810.jpg" );
+    background: url("images/3053366.png" );
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -148,7 +148,7 @@ section{
     padding: 100px 0;
     
 }
-.about, .services, .skills, .contact .footer{
+.about, .services, .skills, .contact, footer{
     font-family: 'Poppins', sans-serif;
 
 
@@ -327,10 +327,13 @@ section .title{
 }
 .contact .right form .name{
     margin-bottom: 10px;
+    margin-right: 10px;
+   
 
 }
 .contact .right form .email{
     margin-bottom: 10px;
+    
 
 }
 .contact .right form .name{
@@ -344,7 +347,7 @@ section .title{
     border: 1px solid lightgray;
     border-radius: 6px;
     outline: none;
-    padding: 0 16px;
+    padding:0 16px;
     font-size: 15px;
     font-family: 'Poppins', sans-serif;
 
@@ -456,22 +459,26 @@ footer{
 
 
     }
-    .navbar .menu .active{
+    .navbar .menu.active{
         left: 0;
-
     }
     .navbar .menu li{
         display: block; 
 
     }
-
-
     .navbar .menu li a{
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
 
     }
+    
+
+    
+    
+
+
+    
     .max-width{
         max-width: 1300px;
         padding: 0 80px;
