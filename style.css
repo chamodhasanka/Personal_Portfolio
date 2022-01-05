@@ -130,7 +130,7 @@ html{
 }
 .home .home-content a{
     display: inline-block;
-    background: grey;
+    background: none;
     color: #fff;
     font-size: 25px;
     padding: 10px 30px;
