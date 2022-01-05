@@ -14,6 +14,13 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
     });
 
+    var typed= new Typed(".typing",{
+        strings: ["Undergraduate","Designer","Developer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    })
+
     
 
 });
