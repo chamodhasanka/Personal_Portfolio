@@ -389,6 +389,7 @@ section .title{
     color: #fff;
 }
 footer{
+    text-align: center;
     background: #111;
     padding: 20px 23px;
     color: #fff;
