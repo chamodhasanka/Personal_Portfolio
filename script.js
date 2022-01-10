@@ -11,7 +11,8 @@ $(document).ready(function(){
 
     });
     $('.menu-btn').click(function(){
-        $('.navbar .menu').toggleClass("active");
+    $('.navbar .menu').toggleClass("active");
+    $('.menu-btn i').toggleClass("active");
     });
 
     var typed= new Typed(".typing",{
