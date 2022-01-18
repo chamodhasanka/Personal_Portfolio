@@ -53,6 +53,7 @@ html {
 
 .navbar .menu li a {
   color: #fff;
+  
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
@@ -181,7 +182,7 @@ section .title {
   padding: 1px 30px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid #696969;
+  border: 2px solid grey;
   transition: all 0.3s ease;
 }
 .about .about-content .right a:hover {
@@ -384,7 +385,7 @@ footer {
     width: 100%;
     left: -100%;
     top: 0;
-    background: #111;
+    background: black;
     text-align: center;
     padding-top: 80px;
     transition: all 0.3s ease;
